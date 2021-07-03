@@ -1,0 +1,21 @@
+{
+  "name": "serverless-sample-api",
+  "version": "1.0.0",
+  "description": "Basic REST API for vercel serverless environment. Users + Auth included!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dennis Smuda",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.13.0"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97"
+  }
+}
